@@ -6,7 +6,7 @@ __declspec(naked) void codecave() {
 
 	__asm {
 		pushad
-		mov dword ptr ds:[ebx+4], 8
+		mov dword ptr ds:[ebx+4], 0xD
 		popad
 		mov dword ptr ds:[0x102AE98], ebx
 
